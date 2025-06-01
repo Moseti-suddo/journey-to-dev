@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>My practice website</title>
+    </head>
+    <body>
+        <!--To create forms you use the (form tags)
+            - (Placeholder) - displays some default text
+            - In forms there are built in (buttons) ie: reset, submit
+            - If you need to send data in a form to a page, list that page within the 
+            (action attribute) of your opening form element... there is also an associated 
+            (method attribute) two common values are GET(insecure) and POST
+            -->
+        <form action="action_page.php" method="POST">
+            <div>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="spongebob" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" placeholder="squarepants" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" name="pass" placeholder="password" maxlength="12" required>
+            </div>
+
+            <br>
+
+            <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="SPants@gmail.com" required>
+            </div>
+
+            <br>
+
+               <div>
+                <label for="phone">Phone #:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+254700000000" required>
+               </div>
+
+            <br>
+
+               <div>
+                <label for="bdate">Birthdate:</label>
+                <input type="date" id="bdate" name="bdate">
+               </div>
+
+            <br>   
+
+            <div>
+                <label for="title">Title:</label>
+
+                <label for="Mr.">Mr.</label>
+                <input type="radio" id="Mr." name="title" value="Mr.">
+
+                <label for="Mr.">Mr.</label>
+                <input type="radio" id="Mrs." name="title" value="Mrs.">
+
+                <label for="Mr.">Mr.</label>
+                <input type="radio" id="PhD." name="title" value="PhD.">
+            </div>
+
+            <br>
+
+               <div>
+                <label for="payment">Payment:</label>
+                <select id="payment" name="payment">
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="giftcard">Giftcard</option>
+
+                </select>
+               </div>
+
+               <br>
+
+               
+
+            <div>
+                <input type="reset">
+            </div>
+
+            <br>
+
+            <div>
+                <input type="submit">
+            </div>
+
+        </form>
+    </body>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
