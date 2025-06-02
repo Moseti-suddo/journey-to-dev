@@ -11,6 +11,8 @@ int main()
 
     printf("\n");
 
+
+
     int x = 0;
     do
     {
@@ -21,6 +23,9 @@ int main()
 
     printf("\n");
 
+
+
+    
     // FOR
     for (int r = 15 ; r <= 30 ; r++)
     {
